@@ -199,10 +199,14 @@ section {
   margin-top: 1rem;
 }
 
+/*Icon*/
+
 .icon {
   cursor: pointer;
   height: 2rem;
 }
+
+/*Button*/
 
 .btn-container {
   display: flex;

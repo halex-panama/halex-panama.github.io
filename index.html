@@ -12,9 +12,9 @@
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="skills">Skills</a></li>
-          <li><a href="projects">Projects</a></li>
-          <li><a href="contact">Contact</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -29,17 +29,47 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="skills" onclick="toggleMenu()">Skills</a></li>
-          <li><a href="projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
 
     <section id="profile">
       <div class="profile-pic-container">
-        <img src="assets/profile.jpg">
+        <img src="assets/profile.jpg" alt="Halexando Panama Putra profile picture">
       </div>
+      <div class="section-text">
+        <p class="p1">Hello I'm</p>
+        <h1 class="title">Halexando Panama Putra</h1>
+        <p class="p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2">Download CV</button>
+          <button 
+          class="btn btn-color-1" 
+          onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+        </div>
+        <div id="social-container">
+          <img 
+          src="./assets/linkedin.png" 
+          alt="Linkedin Profile"
+          class="icon"
+          onclick="location.href='https://www.linkedin.com/in/halexando-panama-putra-0305b1291/'">
+          <img 
+          src="./assets/github.png" 
+          alt="Github Profile"
+          class="icon"
+          onclick="location.href='https://github.com/halex-panama'">
+        </div>
+      </div>
+
+    </section>
+
+    <section id="about">
+
     </section>
 
     <script src="script.js"></script>

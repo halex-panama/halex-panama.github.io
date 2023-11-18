@@ -189,7 +189,7 @@ section {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
@@ -252,6 +252,7 @@ section {
 
 #about {
   position: relative;
+  height: 60vh;
 }
 
 .about-container {
@@ -267,6 +268,11 @@ section {
 
 .about-details-container, .about-container {
   display: flex;
+}
+
+.text-container {
+  line-height: 2rem;
+  margin: 4rem;
 }
 
 .arrow {
@@ -285,15 +291,11 @@ section {
   text-align: center;
 }
 
-.section-container {
-  gap: 4rem;
-  height: 80%;
-}
-
 /*Skills*/
 
 #skills {
   position: relative;
+  height: 50vh;
 }
 
 .skills-details-container {

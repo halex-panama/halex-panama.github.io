@@ -295,7 +295,7 @@ section {
 
 #skills {
   position: relative;
-  height: 50vh;
+  height: 60vh;
 }
 
 .skills-details-container {
@@ -313,18 +313,17 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2rem;
   justify-content: space-around;
+  text-align: initial;
 }
 
 article {
   display: flex;
   width: 10rem;
   gap: 0.5rem;
-  justify-content: space-around;
 }
 
 article .icon {

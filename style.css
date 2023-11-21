@@ -168,6 +168,7 @@ section {
   margin: auto 0;
   height: 400px;
   width: 400px;
+  justify-content: center;
 }
 
 .section-text {

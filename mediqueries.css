@@ -38,8 +38,8 @@
     margin: 0 5%;
   }
   .section-pic-container {
-    width: 275px;
-    height: 275px;
+    width: 50%;
+    height: 50%;
     margin: 0 auto 2rem;
   }
   .about-container {
@@ -89,7 +89,6 @@
   .section-pic-container {
     width: auto;
     height: 46vw;
-    justify-content: center;
   }
   .p2 {
     font-size: 1.25rem;
@@ -98,7 +97,6 @@
     font-size: 2rem;
   }
   .text-container {
-    text-align: justify;
     font-size: 1rem;
     margin: 2rem;
   }

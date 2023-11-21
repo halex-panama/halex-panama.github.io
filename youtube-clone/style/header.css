@@ -1,5 +1,5 @@
 .header {
-  height: 55px;
+  height: 3.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -22,82 +22,82 @@
 }
 
 .hamburger-menu {
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 6px;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  padding: 0.4rem
 }
 
 .youtube-logo {
-  height: 25px;
+  height: 1.5rem;
 }
 
 .middle-section {
   flex: 1;
-  max-width: 500px;
-  margin-left: 50px;
-  margin-right: 30px;
+  max-width: 30rem;
+  margin-left: 3rem;
+  margin-right: 2rem;
 }
 
 .search-button {
-  width: 60px;
-  height: 40px;
-  border-radius: 0 20px 20px 0;
-  margin-right: 10px;
-  margin-left: -1px;
+  width: 4rem;
+  height: 2.5rem;
+  border-radius: 0 1rem 1rem 0;
+  margin-right: 0.6rem;
+  margin-left: -0.1rem;
   background-color: #F8F8F8;
-  border: 1px solid gray;
+  border: 0.1rem solid gray;
 }
 
 .search-icon {
-  height: 20px;
+  height: 1rem;
 }
 
 .search-bar {
-  height: 36px;
-  border: 1px solid gray;
-  border-radius: 20px 0 0 20px;
-  font-size: 16px;
-  padding-left: 10px;
+  height: 2.3rem;
+  border: 0.1rem solid gray;
+  border-radius: 1rem 0 0 1rem;
+  font-size: 1rem;
+  padding-left: 1rem;
   flex: 1;
   width: 0;
 }
 
 .voice-button {
-  height: 40px;
-  width: 40px;
-  border-radius: 20px;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 1.25rem;
   border: none;
   background-color: rgb(221, 221, 221);
 }
 
 .voice-icon {
-  height: 20px;
+  height: 1.25rem;
 }
 
 .right-section {
   justify-content: space-between;
-  margin-right: 20px;
-  width: 200px;
+  margin-right: 1.25rem;
+  width: 12.5rem;
   flex-shrink: 0;
 }
 
 .add-video-icon {
-  height: 28px;
-  padding: 8px;
+  height: 1.75rem;
+  padding: 0.5rem;
 } 
 
 .notifications-icon {
-  height: 25px;
-  padding: 8px;
+  height: 1.5rem;
+  padding: 0.5rem;
 }
 
 .user-channel {
-  height: 40px;
-  border-radius: 20px;
+  height: 2.5rem;
+  border-radius: 1.25rem;
 }
 
 .hamburger-menu:hover, .add-video-icon:hover,
 .notifications-icon:hover {
-  border-radius: 20px;
+  border-radius: 1.25rem;
   background-color: rgb(234, 234, 234);
 }

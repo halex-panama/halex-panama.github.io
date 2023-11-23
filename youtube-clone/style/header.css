@@ -17,17 +17,28 @@
   align-items: center;
 }
 
-.left-section, .right-section img {
+.left-section img, .middle-section img,
+.right-section img {
   cursor: pointer;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
 }
 
 .left-section {
   margin-left: 1.25rem;
 }
 
-.youtube-logo {
-  height: 1.5rem;
-  margin-left: 1.25rem;
+.logo {
+  font-size: 1.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.logo img {
+  margin: 0 .5rem;
 }
 
 .middle-section {
@@ -60,7 +71,6 @@
 }
 
 .voice-button {
-  background-color: rgb(196, 195, 195);
   border-radius: 50%;
   width: 2.5rem;
   height: 2.5rem;
@@ -91,11 +101,7 @@
   transition: 0.15s;
 }
 
-.right-section button:hover, .hamburger-menu:hover, .voice-button:hover {
+.right-section button:hover, .hamburger-menu:hover, 
+.voice-button:hover, .search-button:hover {
   background-color: rgb(221, 221, 221);
-}
-
-.user-channel {
-  height: 2rem;
-  border-radius: 50%;
 }

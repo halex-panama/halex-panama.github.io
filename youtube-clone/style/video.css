@@ -11,7 +11,13 @@
 
 .video-thumbnail {
   width: 100%;
-  border-radius: 0.6rem;
+  border-radius: 1rem;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.video-thumbnail:hover {
+  border-radius: 0;
 }
 
 .description-section {

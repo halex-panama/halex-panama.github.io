@@ -1,24 +1,35 @@
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
+  .header-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 676px) and (max-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 675px) {
   body {
     padding: 4rem 0.5rem;
   }
 
-  .youtube-logo {
-    margin-left: 1.5rem;
+  .header-desktop {
+    display: none;
   }
 
-  .middle-section {
-    justify-content: end;
-    margin: 0;
+  .header-mobile {
+    display: flex;
   }
 
   .right-section {
-    width: auto;
+    justify-content: right;
+    margin: 0;
   }
 
-  .search-button {
-    background: none;
-    border: none;
+  .right-section img {
+    margin: 0 1rem;
   }
 
   .sidebar {
@@ -41,11 +52,6 @@
 
   .video-grid {
     grid-template-columns: 1fr;
-  }
-
-  .hamburger-menu, .voice-button, 
-  .search-bar, .add-video-icon, .notifications-icon {
-    display: none;
   }
   
 }

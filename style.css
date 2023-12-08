@@ -337,8 +337,7 @@ article .icon {
 
 .projects-img {
   border-radius: 2rem;
-  width: 70%;
-  height: 70%;
+  width: 100%;
 }
 
 .projects-title {

@@ -165,9 +165,14 @@ section {
 .section-pic-container {
   display: flex;
   margin: auto 0;
-  height: 400px;
-  width: 400px;
+  height: 250px;
+  width: 250px;
   justify-content: center;
+}
+
+.section-pic-container img {
+  height: 100%;
+  border-radius: 50%;
 }
 
 .section-text {

@@ -276,12 +276,6 @@ section {
   text-align: justify;
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-}
-
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -343,8 +337,8 @@ article .icon {
 
 .projects-img {
   border-radius: 2rem;
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
 }
 
 .projects-title {
